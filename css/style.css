@@ -24,8 +24,30 @@ nav {
 
 /* GENERALES - FIN */
 
+/* REDES SOCIALES - INICIO */
 
+.redes-sociales-contenedor {
 
+    padding-top: 10px;
+    display: flex;
+    justify-content: end;
+
+}
+.redes-sociales-item {
+
+    display: inline;
+    padding: 12px;
+    font-size: 22px;
+  
+}
+
+.redes-sociales-icono {
+
+    color: white;
+
+}
+
+/* REDES SOCIALES - FIN */
 
 /* NAVEGADORES - INICIO */
 
@@ -33,7 +55,12 @@ nav {
 
     justify-content: center;
     margin-right: 190px;
-    
+
+}
+
+.navbar {
+
+    margin-top: -20px;
 
 }
 
@@ -80,8 +107,13 @@ nav {
     width: 100%;
     background-color: #F02B3D;
     color: white;
-    margin: 20px 0px;
+    margin: 30px 0px;
     box-shadow: 6px 6px 10px #0050A5;
+
+}
+.menu-card:hover {
+
+    box-shadow: 9px 9px 20px #0050A5;
 
 }
 
