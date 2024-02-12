@@ -9,6 +9,7 @@
 
 a {
     text-decoration: none;
+    
   
 }
 
@@ -18,6 +19,8 @@ nav {
     font-weight: bold;
 
 }
+
+
 
 /* GENERALES - FIN */
 
@@ -29,11 +32,38 @@ nav {
 .navbar-collapse {
 
     justify-content: center;
-    margin-right: 160px;
+    margin-right: 190px;
+    
 
 }
 
+.navbar-brand {
 
+    margin-left: 30px;
+    
+
+}
+
+.navbar-fondo {
+
+    background-color: #F02B3D;
+    
+
+}
+
+.navbar-texto {
+
+    color: white;
+
+}
+
+.pr {
+
+    width: 50%;
+    height: 200px;
+    background-color: aqua;
+
+}
 
 
 /* NAVEGADORES - FIN */
@@ -48,8 +78,10 @@ nav {
     align-items: center;
     height: 100%;
     width: 100%;
-    background-color: red;
+    background-color: #F02B3D;
+    color: white;
     margin: 20px 0px;
+    box-shadow: 6px 6px 10px #0050A5;
 
 }
 
