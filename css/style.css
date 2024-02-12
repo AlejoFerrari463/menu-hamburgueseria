@@ -1,0 +1,91 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+/* GENERALES - INICIO */
+
+a {
+    text-decoration: none;
+}
+
+/* GENERALES - FIN */
+
+
+
+
+/* NAVEGADORES - INICIO */
+
+.navegador-fondo {
+
+    background-color: red;
+
+}
+
+.navegador-contenedor {
+
+    padding-top: 10px;
+    display: grid;
+    justify-content: center;
+    margin-right: 20px;
+
+}
+
+.navegador-item {
+
+    display: inline;
+    list-style: none;
+    font-size: 20px;
+    padding: 10px;
+
+}
+
+
+/* NAVEGADORES - FIN */
+
+/* MENU - INICIO */
+
+
+.menu-card {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    margin: 20px 0px;
+
+}
+
+.menu-descripcion {
+
+    text-align: start;
+    padding-top: 10px;
+    padding-left: 20px;
+    
+   
+
+}
+
+.menu-ajustar-precio {
+
+    margin-top: -10px;
+
+}
+
+
+.menu-foto {
+
+    height: 15vh;
+    object-fit: contain;
+    border-radius: 26px;
+    padding: 5px;
+    padding-right: 0;
+
+}
+
+/* MENU - FIN */
+
