@@ -9,6 +9,14 @@
 
 a {
     text-decoration: none;
+  
+}
+
+nav {
+
+    font-size: 20px;
+    font-weight: bold;
+
 }
 
 /* GENERALES - FIN */
@@ -18,29 +26,14 @@ a {
 
 /* NAVEGADORES - INICIO */
 
-.navegador-fondo {
+.navbar-collapse {
 
-    background-color: red;
-
-}
-
-.navegador-contenedor {
-
-    padding-top: 10px;
-    display: grid;
     justify-content: center;
-    margin-right: 20px;
+    margin-right: 160px;
 
 }
 
-.navegador-item {
 
-    display: inline;
-    list-style: none;
-    font-size: 20px;
-    padding: 10px;
-
-}
 
 
 /* NAVEGADORES - FIN */
