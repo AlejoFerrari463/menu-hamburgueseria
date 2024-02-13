@@ -1,0 +1,71 @@
+
+
+@media screen and (max-width: 992px) {
+  
+    .navbar-collapse {
+
+        justify-content: end;
+        text-align: end;
+        margin-right: 0;
+    
+    }
+
+    
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 330px) {
+  
+    .menu-foto {
+
+        height: 70px;
+    
+    }
+
+    .menu-card {
+
+        font-size: 10px;
+
+    }
+    
+    h3 {
+
+        font-size: 16px;
+
+    }
+    .menu-ajustar-precio {
+
+        font-size: 12px;
+
+    }
+
+}
+
+@media screen and (min-width: 331px) and (max-width: 430px) {
+  
+    .menu-foto {
+
+        height: 100px;
+    
+    }
+
+    .menu-card {
+
+        font-size: 12px;
+
+    }
+    
+    h3 {
+
+        font-size: 18px;
+
+    }
+    .menu-ajustar-precio {
+
+        font-size: 12px;
+
+    }
+
+}
+
+

@@ -12,6 +12,7 @@
     color: white;
     margin: 30px 0px;
     box-shadow: 6px 6px 10px #0050A5;
+    font-size: 15px;
 
 }
 .menu-card:hover {
@@ -25,7 +26,7 @@
     text-align: start;
     padding-top: 10px;
     padding-left: 20px;
-    
+
    
 
 }
@@ -33,13 +34,15 @@
 .menu-ajustar-precio {
 
     margin-top: -10px;
+    font-size: 17px;
 
 }
 
 
 .menu-foto {
 
-    height: 15vh;
+    height: 150px;
+    width: auto;
     object-fit: contain;
     border-radius: 26px;
     padding: 5px;

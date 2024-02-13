@@ -42,6 +42,7 @@ h1 {
 
 .navbar-fondo {
   background-color: #F02B3D;
+  box-shadow: 0px 3px 7px black;
 }
 
 .navbar-texto {
@@ -94,6 +95,7 @@ h1 {
   color: white;
   margin: 30px 0px;
   box-shadow: 6px 6px 10px #0050A5;
+  font-size: 15px;
 }
 
 .menu-card:hover {
@@ -108,10 +110,12 @@ h1 {
 
 .menu-ajustar-precio {
   margin-top: -10px;
+  font-size: 17px;
 }
 
 .menu-foto {
-  height: 15vh;
+  height: 150px;
+  width: auto;
   object-fit: contain;
   border-radius: 26px;
   padding: 5px;
@@ -119,5 +123,40 @@ h1 {
 }
 
 /* MENU - FIN */
+@media screen and (max-width: 992px) {
+  .navbar-collapse {
+    justify-content: end;
+    text-align: end;
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 330px) {
+  .menu-foto {
+    height: 70px;
+  }
+  .menu-card {
+    font-size: 10px;
+  }
+  h3 {
+    font-size: 16px;
+  }
+  .menu-ajustar-precio {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 331px) and (max-width: 430px) {
+  .menu-foto {
+    height: 100px;
+  }
+  .menu-card {
+    font-size: 12px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  .menu-ajustar-precio {
+    font-size: 12px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
