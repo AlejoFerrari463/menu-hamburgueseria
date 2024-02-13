@@ -8,12 +8,11 @@
     align-items: center;
     height: 100%;
     width: 100%;
-    background-color: #F02B3D;
+    background-color: black;
     color: white;
     margin: 30px 0px;
     box-shadow: 6px 6px 10px #0050A5;
     font-size: 15px;
-
 }
 .menu-card:hover {
 
@@ -41,12 +40,13 @@
 
 .menu-foto {
 
-    height: 150px;
+    height: 160px;
     width: auto;
     object-fit: contain;
-    border-radius: 26px;
-    padding: 5px;
-    padding-right: 0;
+    border-radius: 16px;
+    box-shadow: 0px 0px 4px white;
+    margin: 10px 0px;
+    margin-right: 5px;
 
 }
 

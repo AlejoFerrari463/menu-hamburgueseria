@@ -97,7 +97,7 @@ h1 {
   align-items: center;
   height: 100%;
   width: 100%;
-  background-color: #F02B3D;
+  background-color: black;
   color: white;
   margin: 30px 0px;
   box-shadow: 6px 6px 10px #0050A5;
@@ -120,12 +120,13 @@ h1 {
 }
 
 .menu-foto {
-  height: 150px;
+  height: 160px;
   width: auto;
   object-fit: contain;
-  border-radius: 26px;
-  padding: 5px;
-  padding-right: 0;
+  border-radius: 16px;
+  box-shadow: 0px 0px 4px white;
+  margin: 10px 0px;
+  margin-right: 5px;
 }
 
 /* MENU - FIN */
@@ -136,21 +137,21 @@ h1 {
     margin-right: 0;
   }
 }
-@media screen and (min-width: 0px) and (max-width: 330px) {
+@media screen and (min-width: 0px) and (max-width: 340px) {
   .menu-foto {
-    height: 70px;
+    height: 60px;
   }
   .menu-card {
     font-size: 10px;
   }
   h3 {
-    font-size: 16px;
+    font-size: 12px;
   }
   .menu-ajustar-precio {
     font-size: 12px;
   }
 }
-@media screen and (min-width: 331px) and (max-width: 430px) {
+@media screen and (min-width: 341px) and (max-width: 460px) {
   .menu-foto {
     height: 100px;
   }
