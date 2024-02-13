@@ -1,0 +1,51 @@
+/* MENU - INICIO */
+
+
+.menu-card {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: #F02B3D;
+    color: white;
+    margin: 30px 0px;
+    box-shadow: 6px 6px 10px #0050A5;
+
+}
+.menu-card:hover {
+
+    box-shadow: 9px 9px 20px #0050A5;
+
+}
+
+.menu-descripcion {
+
+    text-align: start;
+    padding-top: 10px;
+    padding-left: 20px;
+    
+   
+
+}
+
+.menu-ajustar-precio {
+
+    margin-top: -10px;
+
+}
+
+
+.menu-foto {
+
+    height: 15vh;
+    object-fit: contain;
+    border-radius: 26px;
+    padding: 5px;
+    padding-right: 0;
+
+}
+
+/* MENU - FIN */
+

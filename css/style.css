@@ -1,179 +1,123 @@
+/* GENERALES - INICIO */
 * {
-
-    margin: 0;
-    padding: 0;
- 
-
+  margin: 0;
+  padding: 0;
 }
 
 body {
-
-    background-color: #ccc;
-
+  background-color: #ddd;
 }
 
-/* GENERALES - INICIO */
-
 a {
-    text-decoration: none;
-    
-  
+  text-decoration: none;
 }
 
 nav {
-
-    font-size: 20px;
-    font-weight: bold;
-
+  font-size: 20px;
+  font-weight: bold;
 }
 
 h1 {
-
-
-    margin-top: 40px;
-    margin-bottom: 40px;
-    text-align: center;
-    color: #0050A5;
-
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #0050A5;
 }
-
 
 /* GENERALES - FIN */
-
-/* REDES SOCIALES - INICIO */
-
-.redes-sociales-contenedor {
-
-    padding-top: 10px;
-    display: flex;
-    justify-content: end;
-
-}
-.redes-sociales-item {
-
-    display: inline;
-    padding: 12px;
-    font-size: 22px;
-  
-}
-
-.redes-sociales-icono {
-
-    color: white;
-
-}
-
-/* REDES SOCIALES - FIN */
-
 /* NAVEGADORES - INICIO */
-
 .navbar-collapse {
-
-    display: flex;
-    justify-content: center;
-    margin-right: 190px;
-
+  display: flex;
+  justify-content: center;
+  margin-right: 190px;
 }
 
 .navbar {
-
-    margin-top: -10px;
-
+  margin-top: -10px;
 }
 
 .navbar-brand {
-
-    margin-left: 10px;
-
-
+  margin-left: 10px;
 }
 
-
 .navbar-fondo {
-
-    background-color: #F02B3D;
-    
-
+  background-color: #F02B3D;
 }
 
 .navbar-texto {
-
-    color: white;
-
+  color: white;
 }
 
 .navbar-toggler {
-
-    width: 50px;
-    height: 40px;
-    border: 2px solid white;
-
+  width: 50px;
+  height: 40px;
+  border: 2px solid white;
 }
 
 .navbar-toggler:focus {
-    box-shadow: 0px 0px 12px #0050A5;;
-   
+  box-shadow: 0px 0px 12px #0050A5;
 }
 
 .pr {
-
-    width: 50%;
-    height: 200px;
-    background-color: aqua;
-
+  width: 50%;
+  height: 200px;
+  background-color: aqua;
 }
-
 
 /* NAVEGADORES - FIN */
-
-/* MENU - INICIO */
-
-
-.menu-card {
-
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    background-color: #F02B3D;
-    color: white;
-    margin: 30px 0px;
-    box-shadow: 6px 6px 10px #0050A5;
-
+/* REDES SOCIALES - INICIO */
+.redes-sociales-contenedor {
+  padding-top: 10px;
+  display: flex;
+  justify-content: end;
 }
+
+.redes-sociales-item {
+  display: inline;
+  padding: 12px;
+  font-size: 22px;
+}
+
+.redes-sociales-icono {
+  color: white;
+}
+
+/* REDES SOCIALES - FIN */
+/* MENU - INICIO */
+.menu-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: #F02B3D;
+  color: white;
+  margin: 30px 0px;
+  box-shadow: 6px 6px 10px #0050A5;
+}
+
 .menu-card:hover {
-
-    box-shadow: 9px 9px 20px #0050A5;
-
+  box-shadow: 9px 9px 20px #0050A5;
 }
 
 .menu-descripcion {
-
-    text-align: start;
-    padding-top: 10px;
-    padding-left: 20px;
-    
-   
-
+  text-align: start;
+  padding-top: 10px;
+  padding-left: 20px;
 }
 
 .menu-ajustar-precio {
-
-    margin-top: -10px;
-
+  margin-top: -10px;
 }
 
-
 .menu-foto {
-
-    height: 15vh;
-    object-fit: contain;
-    border-radius: 26px;
-    padding: 5px;
-    padding-right: 0;
-
+  height: 15vh;
+  object-fit: contain;
+  border-radius: 26px;
+  padding: 5px;
+  padding-right: 0;
 }
 
 /* MENU - FIN */
 
+/*# sourceMappingURL=style.css.map */
