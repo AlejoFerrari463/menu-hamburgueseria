@@ -24,6 +24,10 @@ h1 {
   color: #0050A5;
 }
 
+h3 {
+  color: white;
+}
+
 /* GENERALES - FIN */
 /* NAVEGADORES - INICIO */
 .navbar-collapse {
@@ -149,11 +153,6 @@ h1 {
 
 .btn-close {
   background-color: white;
-}
-
-.modal-body .menu-foto {
-  width: 300px;
-  height: 200px;
 }
 
 @media screen and (max-width: 992px) {
