@@ -151,8 +151,17 @@ h3 {
   border-bottom: 1px solid white;
 }
 
-.btn-close {
-  background-color: white;
+.modal-titulo h3 {
+  font-size: 22px;
+}
+
+.modal-body .menu-ajustar-precio {
+  font-size: 16px;
+}
+
+.modal-body .menu-foto {
+  width: 70%;
+  height: auto;
 }
 
 @media screen and (max-width: 992px) {
