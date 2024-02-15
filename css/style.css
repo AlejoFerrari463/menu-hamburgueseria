@@ -133,6 +133,18 @@ h3 {
 }
 
 /* MENU - FIN */
+.footer-contenedor {
+  border-top: 2px solid #F02B3D;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.footer-contenido {
+  padding-top: 15px;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
 .modal-content {
   margin-top: 130px;
   background-color: black;
