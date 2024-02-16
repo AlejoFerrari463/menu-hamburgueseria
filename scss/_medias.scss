@@ -75,7 +75,7 @@
 
 
 
-@media screen and (min-height: 0px) and (max-height: 390px) {
+@media screen and (min-height: 0px) and (max-height: 389px) {
   
     .modal-content {
 
@@ -125,13 +125,15 @@
     
     
     }
-  
+    .bebidas {
 
+        box-shadow: none;
 
+    }
 }
 
 
-@media screen and (min-height: 390px) and (max-height: 470px) {
+@media screen and (min-height: 390px) and (max-height: 469px) {
   
     .modal-content {
 
@@ -166,9 +168,14 @@
 
         height: 90px; 
         width: auto;  
+        
     }
 
-  
+    .bebidas {
+
+        box-shadow: none;
+
+    }
 
 
 }
@@ -190,6 +197,11 @@
         width: auto;  
     }
 
+    .bebidas {
+
+        box-shadow: none;
+
+    }
   
 
 
@@ -204,6 +216,11 @@
 
         margin-top: 0;
 
+
+    }
+    .bebidas {
+
+        box-shadow: none;
 
     }
   

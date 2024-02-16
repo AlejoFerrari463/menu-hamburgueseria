@@ -186,8 +186,8 @@ h3 {
 }
 
 .modal-body .menu-foto {
-  width: 70%;
-  height: auto;
+  width: auto;
+  height: 160px;
 }
 
 @media screen and (max-width: 992px) {
@@ -225,7 +225,7 @@ h3 {
     font-size: 12px;
   }
 }
-@media screen and (min-height: 0px) and (max-height: 390px) {
+@media screen and (min-height: 0px) and (max-height: 389px) {
   .modal-content {
     margin-top: 0px;
   }
@@ -250,8 +250,11 @@ h3 {
     padding: 5px 7px;
     border-radius: 5px;
   }
+  .bebidas {
+    box-shadow: none;
+  }
 }
-@media screen and (min-height: 390px) and (max-height: 470px) {
+@media screen and (min-height: 390px) and (max-height: 469px) {
   .modal-content {
     margin-top: 0px;
   }
@@ -268,6 +271,9 @@ h3 {
     height: 90px;
     width: auto;
   }
+  .bebidas {
+    box-shadow: none;
+  }
 }
 @media screen and (min-height: 470px) and (max-height: 550px) {
   .modal-content {
@@ -277,10 +283,16 @@ h3 {
     height: 120px;
     width: auto;
   }
+  .bebidas {
+    box-shadow: none;
+  }
 }
 @media screen and (min-height: 551px) and (max-height: 640px) {
   .modal-content {
     margin-top: 0;
+  }
+  .bebidas {
+    box-shadow: none;
   }
 }
 
