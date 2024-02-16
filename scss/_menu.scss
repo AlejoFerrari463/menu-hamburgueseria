@@ -9,15 +9,15 @@
     height: 100%;
     width: 100%;
     background-color: black;
-    color: white;
+    color: $color-terciario;
     margin: 30px 0px;
-    box-shadow: 6px 6px 10px #0050A5;
+    box-shadow: 6px 6px 10px $color-secundario;
     font-size: 15px;
 }
 
 .menu-card:hover {
 
-    box-shadow: 9px 9px 20px #0050A5;
+    box-shadow: 9px 9px 20px $color-secundario;
 
 }
 
@@ -46,7 +46,7 @@
     width: auto;
     object-fit: contain;
     border-radius: 16px;
-    box-shadow: 0px 0px 4px white;
+    box-shadow: 0px 0px 4px $color-terciario;
     margin: 10px 5px;
   
 
@@ -54,17 +54,17 @@
 
 .menu-boton {
 
-    background-color: #0050A5;
+    background-color: $color-secundario;
     padding: 7px 13px;
     border-radius: 5px;
     border: none;
-    color: white;
+    color: $color-terciario;
 
 }
 
 .menu-boton:hover {
 
-    background-color: #01264D;
+    background-color: $color-secundario
 
 }
 

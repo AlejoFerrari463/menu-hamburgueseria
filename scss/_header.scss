@@ -28,8 +28,8 @@
 
 .navbar-fondo {
 
-    background-color: #F02B3D;
-    box-shadow: 0px 3px 7px white;
+    background-color: $color-principal;
+    box-shadow: 0px 3px 7px $color-terciario;
     
     
 
@@ -37,7 +37,7 @@
 
 .navbar-texto {
 
-    color: white;
+    color: $color-terciario;
     font-size: 20px;
     
 
@@ -52,22 +52,15 @@
 
     width: 50px;
     height: 40px;
-    border: 2px solid white;
+    border: 2px solid $color-terciario;
 
 }
 
 .navbar-toggler:focus {
-    box-shadow: 0px 0px 12px #0050A5;;
+    box-shadow: 0px 0px 12px $color-secundario;
    
 }
 
-.pr {
-
-    width: 50%;
-    height: 200px;
-    background-color: aqua;
-
-}
 
 
 /* NAVEGADORES - FIN */

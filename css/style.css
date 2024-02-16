@@ -69,12 +69,6 @@ h3 {
   box-shadow: 0px 0px 12px #0050A5;
 }
 
-.pr {
-  width: 50%;
-  height: 200px;
-  background-color: aqua;
-}
-
 /* NAVEGADORES - FIN */
 /* REDES SOCIALES - INICIO */
 .redes-sociales-contenedor {
@@ -141,7 +135,7 @@ h3 {
 }
 
 .menu-boton:hover {
-  background-color: #01264D;
+  background-color: #0050A5;
 }
 
 /* MENU - FIN */
