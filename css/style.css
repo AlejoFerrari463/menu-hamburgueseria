@@ -158,11 +158,13 @@ h3 {
 }
 
 .modal-content {
-  margin-top: 130px;
+  margin-top: 100px;
   background-color: black;
   border-radius: 10px;
   text-align: center;
   box-shadow: 0 0 10px #F02B3D;
+  height: 100%;
+  width: 100%;
 }
 
 .modal-body {
@@ -221,6 +223,64 @@ h3 {
   }
   .menu-ajustar-precio {
     font-size: 12px;
+  }
+}
+@media screen and (min-height: 0px) and (max-height: 390px) {
+  .modal-content {
+    margin-top: 0px;
+  }
+  .modal-titulo h3 {
+    font-size: 16px;
+  }
+  .modal-titulo {
+    padding-top: 7px;
+    padding-bottom: 5px;
+  }
+  .modal-body p {
+    font-size: 13px;
+  }
+  .modal-body .menu-ajustar-precio {
+    font-size: 11px;
+  }
+  .modal-body .menu-foto {
+    height: 70px;
+    width: auto;
+  }
+  .menu-boton {
+    padding: 5px 7px;
+    border-radius: 5px;
+  }
+}
+@media screen and (min-height: 390px) and (max-height: 470px) {
+  .modal-content {
+    margin-top: 0px;
+  }
+  .modal-titulo h3 {
+    font-size: 18px;
+  }
+  .modal-body p {
+    font-size: 13px;
+  }
+  .modal-body .menu-ajustar-precio {
+    font-size: 13px;
+  }
+  .modal-body .menu-foto {
+    height: 90px;
+    width: auto;
+  }
+}
+@media screen and (min-height: 470px) and (max-height: 550px) {
+  .modal-content {
+    margin-top: 0;
+  }
+  .modal-body .menu-foto {
+    height: 120px;
+    width: auto;
+  }
+}
+@media screen and (min-height: 551px) and (max-height: 640px) {
+  .modal-content {
+    margin-top: 0;
   }
 }
 
