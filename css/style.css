@@ -77,8 +77,7 @@ h3 {
 /* REDES SOCIALES - INICIO */
 .redes-sociales-contenedor {
   padding-top: 10px;
-  display: flex;
-  justify-content: end;
+  text-align: end;
 }
 
 .redes-sociales-item {
